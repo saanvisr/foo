@@ -1,2 +1,3 @@
 Microsoft.ASPNetCore.ALL will be the only reference in Core 2.0 in app
 CrateDefaultHolder in Program.takes care of many things (content and IIS configuration)
+Testing in progress
