@@ -1,0 +1,53 @@
+Six key concepts of Compute and networking service
+
+1. Instance and amzon machine
+
+2. Security group
+
+3. Auto scaling
+
+4. Route 53
+
+5. VPC and Sub nets
+
+
+Amazon machine image
+
+Application server
+
+OS
+
+Software
+
+Virtual private Cloud
+
+Sub nets: Range of IP address  (Private or Public)
+
+Security group functions like a fire wall (Incoming and Outgoing)
+
+Route 53 : TCP
+
+Auto scaling : It increases the Amazon EC2 instance during peak time and decreases the capacity during non peak hours
+
+Load balancer is responsible for distributing the network traffic accross several  Amazon EC2 instances
+
+EBS : Durable storage device attached to the EC2 instance. Four main benefits of EBS. It acts as a primary dta 
+
+1. Data availability
+
+2. Data security
+
+3. Data persistance
+
+4. Data backups
+
+Types of EBS (Elastic Block stoge)
+
+General purpose SSD
+
+Snapshots are updated incrementally, they are deleted in such a way that only the most recent snapshot stays back for restoring the volumen
+
+Snapshots are always restricted to the region where they are created.
+
+EBS data volume can be restored in S3	 	
+
