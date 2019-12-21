@@ -1,0 +1,12 @@
+ if ($val.components.componentPath.type -eq 'UI')
+   {
+        Write-Host "UI Path $sPath " 
+        $val.components.componentPath.sourcePath
+        Write-Host " `n' "
+   }
+   elseif($val.components.componentPath.type -eq 'API')
+   {
+        
+        Write-Host "API Path `n` "
+        $val.components.componentPath.type
+   }
